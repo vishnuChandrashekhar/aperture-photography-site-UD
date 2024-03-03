@@ -1,0 +1,23 @@
+.footer-container{
+  height: auto;
+  padding: 5px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+
+  p{
+    font: 400 1.25rem/1 'poppins';
+    color: #fff;
+
+    span{
+      font: 700 1.25rem/1 'poppins';
+    }
+  }
+
+  .privacypolicy{
+    text-decoration: none;
+    font: 600 1rem/1 'poppins';
+    color: #fff;
+  }
+}

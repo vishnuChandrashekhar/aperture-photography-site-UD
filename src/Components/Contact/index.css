@@ -1,0 +1,82 @@
+.contact-page{
+
+  .contact-hero{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../../Assets/images/contactpage/contactpage.png') no-repeat center/cover;
+
+    h1{
+      color: #fff;
+      font: 400 64px/1 'Allison', 'raleway';
+      letter-spacing: 20px;
+   }
+  }
+
+  .contact-details{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+    .icon-box{
+      width: 350px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+
+      p{
+        font: 500 1.8rem/1 'Poppins', 'sans-serif';
+        text-align: center;
+      }
+
+      .contact-icon{
+       font-size: 10rem;
+      }
+    }
+  }
+
+  .conatct-form{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+      padding: 12px;
+      font: 500 1.8rem/1.4 'poppins', 'sans-serif';
+      text-align: center;
+      letter-spacing: 6px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-hero{
+    height: 40vh;
+  }
+
+  .contact-details{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .icon-box{
+    width: 100%;
+    height: auto;
+  }
+}

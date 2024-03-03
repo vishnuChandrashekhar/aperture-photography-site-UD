@@ -1,0 +1,49 @@
+.form{
+  width: 70%;
+  height: 800px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  input{
+    width: 70%;
+    height: 70px;
+    padding: 0 25px;
+    font: 500 1.25rem/1 'poppins', 'sans-serif';
+  }
+
+  textarea{
+    width: 70%;
+    height: 250px;
+    padding: 20px 25px;
+  }
+
+  .input-btn{
+    width: 20%;
+    font: 600 1.85rem/1 'Poppins';
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+
+    &:hover{
+      background-color: #fff;
+      color: #000;
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  .form{
+    width: 100%;
+
+    .input-btn{
+      width: 40%;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.home-page{
+  
+  .main-box{
+    height: 512px;
+    grid-column: 1 / span 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    z-index: 0;
+        
+    h2{
+      font-size: 48px;
+      font-weight: 500;
+      font-family: 'Darker Grotesque';
+      letter-spacing: 15px;
+      line-height: 0.5;
+      color: #fff;
+    }
+
+    .btn-link{
+      text-decoration: none;
+    }
+  }
+
+  .main{
+    background: url('/src/Assets/images/homepage/Main.png') no-repeat center/cover;
+  }
+  .portfolio{
+    background: url('/src/Assets/images/homepage/Portfolio.png') no-repeat center/cover;
+  }
+   .services{
+    background: url('/src/Assets/images/homepage/Services.png') no-repeat center/cover;
+   }
+   .about{
+    background: url('/src/Assets/images/homepage/AboutUs.png') no-repeat center/cover;
+   }
+   .contact{
+    background: url('/src/Assets/images/homepage/ContactUs.png') no-repeat center/cover;
+   }
+   .blog{
+    background: url('/src/Assets/images/homepage/blog.png') no-repeat center/cover;
+   }
+
+   @media screen and (max-width: 560px) {
+    .main-box{
+      height: 350px;
+      img{
+        width: 50%;
+      }
+      
+      h2{
+        font-size: 38px;
+      }
+    }
+  }
+}
+
